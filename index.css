@@ -1,0 +1,25 @@
+body{
+    background: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0, 0.2);
+    position: relative;
+}
+.btn span{
+    padding: 5px 10px;
+    border: 2px solid white;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+}
